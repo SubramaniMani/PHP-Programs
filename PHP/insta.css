@@ -1,0 +1,30 @@
+h5
+{
+padding-inline-end: 100%;
+
+}
+.bordercircle
+{
+    height: 25px;
+    width: 25px;
+    background-color: #bf1717;
+    border-radius: 50%;
+   
+   
+}
+
+.box
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    
+
+}
+
+.bordercircle
+{
+    border-radius: 50%;
+    border-color: brown;
+}

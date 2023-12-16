@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bookstore>
+  <book category="Running">
+    <title lang="en">Indian</title>
+    <author>TamilNadu</author>
+    <year>2023</year>
+  </book>
+  <book category="Walking">
+  <title lang="en">Java Full Stack Development</title>
+    <author>TamilNadu</author>
+    <year>2023</year>
+    </book>
+  </bookstore>
+
+
+
+

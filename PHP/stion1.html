@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+        var v1 = new XMLHttpRequest()
+        v1.onreadystatechange = function()
+        {
+            if(this.readyState == 4 && this.status == 200)
+            {
+                var v2 = ResponseText;
+                document.getElementById("id").innerHTML=v2;
+            }
+        };
+        v1.open("POST" ,"stion.php",true);
+        v1.setRequestHeader("content-type" , "application/x-www-form-urlencoded");
+        v1.send("fname = PHP & sname= JAVA" );
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
